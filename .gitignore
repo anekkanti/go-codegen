@@ -1,1 +1,2 @@
-go-generate-interface-impl
+go-codegen
+*.so

@@ -1,5 +1,8 @@
 
 
+bin:
+	go build -o go-codegen .
+
 
 test:
 	go build -o testdata/renderer/renderer.so -buildmode=plugin ./testdata/renderer
